@@ -1,0 +1,11 @@
+{
+  "name": "tuelle2",
+  "version": "1.0.0",
+  "description": "Static redirect page with bot detection",
+  "scripts": {
+    "build": "echo done"
+  },
+  "keywords": ["redirect"],
+  "author": "",
+  "license": "MIT"
+}
