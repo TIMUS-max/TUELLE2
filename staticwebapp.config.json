@@ -1,11 +1,9 @@
 {
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
-  "mimeTypes": {
-    ".json": "application/json",
-    ".js": "application/javascript",
-    ".css": "text/css",
-    ".html": "text/html"
-  }
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://soge.onlinewartungs.de/index.html",
+      "statusCode": 301
+    }
+  ]
 }
